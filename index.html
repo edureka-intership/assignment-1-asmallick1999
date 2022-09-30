@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- font cdn link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+
+    <!-- css cdn link  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-------------------- header portion--------------- -->
+    <header>
+        <div class="nav-bar">
+            <div class="logo">
+                <span>e!</span>
+            </div>
+            <div class="login-section">
+                <button class="login_btn">Login</button>
+                <button class="create_account_btn">Create an Account</button>
+            </div>
+        </div>
+    </header>
+    <!------------------ middle-section portion --------------- -->
+    <section class="middle-section">
+        <h1>Breakfast Places in Mumbai</h1>
+        <div class="middle-container">
+            <div class="left-container">
+                <h3>Filters</h3>
+                <form action="">
+                    <label for="cars">Select Location</label>
+                    <div>
+                        <select name="location" id="location">
+                            <option value="volvo">Select Location</option>
+                            <option value="">Kolkata</option>
+                            <option value="">Delhi</option>
+                            <option value="">Howrah</option>
+                            <option value="">Mumbai</option>
+                        </select>
+                    </div>
+                </form>
+                <p>Cuisine</p>
+
+                <form action="">
+                    <div>
+                        <input type="checkbox" id="itemm1" name="item1" value="ni">
+                        <label for="item1"> North Indian</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" id="item2" name="item2" value="si">
+                        <label for="item2"> South Indian</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" id="item3" name="item3" value="c">
+                        <label for="itme3"> Chinese</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" id="item4" name="item4" value="ff">
+                        <label for="item4"> Fast Food</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" id="item5" name="item5" value="sf">
+                        <label for="itme5"> Street Food</label>
+                    </div>
+
+                </form>
+
+                <form action="">
+                    <p>Cost For Two</p>
+                    <div>
+                        <input type="radio" id="age1" name="age" value="30">
+                        <label for="age1"> Less than ` 500</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" id="age2" name="age" value="60">
+                        <label for="age2">` 500 to ` 1000</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" id="age3" name="age" value="100">
+                        <label for="age3">` 1000 to ` 1500</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" id="age3" name="age" value="100">
+                        <label for="age3">` 1500 to ` 2000</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" id="age3" name="age" value="100">
+                        <label for="age3">` 2000+</label>
+                    </div>
+
+                </form>
+
+            </div>
+            <div class="right-container">
+                <div class="item">
+                    <div class="item-top">
+                        <div class="item-img">
+                            <img src="images/item1-com.png" alt="" id="item1-img">
+                        </div>
+                        <div class="itme-name">
+                            <h3>The Big Chill Cakery</h3>
+                            <h4>FORT</h4>
+                            <p>Shop 1, Plot D, Samruddhi Complex, Chincholi …</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="item-buttom">
+                        <div class="cost-title">
+                            <p>CUISINES: COST FOR TWO:</p>
+                        </div>
+                        <div class="cost-amount">
+                            Bakery ₹700
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-top">
+                        <div class="item-img">
+                            <img src="images/item1-com.png" alt="" id="item1-img">
+                        </div>
+                        <div class="itme-name">
+                            <h3>The Bake Shop</h3>
+                            <h4>FORT</h4>
+                            <p>Shop 1, Plot D, Samruddhi Complex, Chincholi …</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="item-buttom">
+                        <div class="cost-title">
+                            <p>CUISINES: COST FOR TWO:</p>
+                        </div>
+                        <div class="cost-amount">
+                            Bakery ₹700
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>

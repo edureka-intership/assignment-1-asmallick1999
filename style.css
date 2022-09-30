@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*------------- header styling--------------------  */
+header {
+    background: #CE0505;
+    padding: 0.6% 0 0.6% 0;
+}
+
+.nav-bar {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 52px;
+    width: 52px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-radius: 50%;
+}
+
+.logo span {
+
+    font: normal normal 536 34px/50px Poppins;
+    color: #EB2929;
+    margin-left: 11px;
+    font-weight: bold;
+}
+
+/* -----------------login section styling -------------- */
+
+.login-section {
+    display: flex;
+    margin-right: 20px;
+}
+
+.login-section button {
+    border: none;
+    background: #CE0505;
+    color: white;
+    font-size: 15px;
+}
+
+.login_btn {
+    margin-right: 20px;
+}
+
+.create_account_btn {
+    border: 1px solid white !important;
+    padding: 5px 20px 5px 20px;
+    border-radius: 28px;
+}
+
+/*-------------------- middle section ---------------- */
+
+.middle-section {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.middle-section h1 {
+    font: normal normal bold 36px/55px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+}
+
+.middle-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 50px;
+
+}
+
+.left-container {
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 0%), 0 6px 20px 0 rgb(0 0 0 / 13%);
+    padding: 42px;
+}
+
+.item {
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 0%), 0 6px 20px 0 rgb(0 0 0 / 13%);
+}
+
+/* //////////////////// */
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.item-top {
+    display: flex;
+    align-items: center;
+}
+
+.item-buttom {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+/* ///////// */
+
+.item-img {
+    text-align: center;
+
+}
+
+#item1-img {
+    width: 80%;
+    border-radius: 23px;
+}
+
+h3 {
+    font: 600 26px/0px Poppins;
+    color: #192F60;
+}
+
+.cost-title p {
+    padding: 0% 19% 0% 20%;
+    margin-top: 0;
+}
